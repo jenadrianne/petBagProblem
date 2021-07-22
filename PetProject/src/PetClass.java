@@ -6,8 +6,8 @@ public class PetClass {
 	private String petType; 
 	private String petName; 
 	private int petAge; 
-	private int dogSpaces; 
-	private int catSpaces; 
+	private int dogSpaces = 30;
+	private int catSpaces = 12;
 	private int daysStay;
 	private double amountDue;
 
